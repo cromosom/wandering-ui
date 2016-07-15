@@ -1,5 +1,5 @@
 import React from 'react';
-import Test from '../Test.js';
+import Test from '../WidgetList.js';
 import { storiesOf, action } from '@kadira/storybook';
 
 storiesOf('Product', module)

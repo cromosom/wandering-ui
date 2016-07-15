@@ -4,10 +4,10 @@ export default class Widget extends Component {
 
   render () {
 
-    const {name} = this.props.data
+    const {lat} = this.props.data
 
     return (
-      <div className="wn-widget">{name}</div>
+      <div className="wn-widget">{lat}</div>
     )
   }
 
