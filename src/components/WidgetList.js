@@ -10,6 +10,10 @@ export default class WidgetList extends Component {
     return (
       <div className="wn-widgetlist">
         {data.map( item => <Widget key={item.id} data={item}></Widget> )}
+
+        <div className="wn-widgetlist__actions">
+          <button className="wn-btn">Get Data</button>
+        </div>
       </div>
     )
   }
