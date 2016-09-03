@@ -7,6 +7,7 @@
   "main": "app.js",
   "scripts": {
     "start": "NODE_ENV=development webpack --watch",
+    "server": "./node_modules/.bin/wn",
     "storybook": "start-storybook -p 9001"
   },
   "dependencies": {
@@ -26,6 +27,7 @@
     "redux": "^3.5.2",
     "redux-thunk": "^2.0.1",
     "reqwest": "2.0.5",
+    "wandering-node-server": "git+https://github.com/cromosom/wandering-server.git",
     "when": "3.7.7"
   },
   "devDependencies": {

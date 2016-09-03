@@ -4,10 +4,12 @@ export default class Widget extends Component {
 
   render () {
 
-    const {lat} = this.props.data
+    const { lat, mediaUrl } = this.props.data
 
     return (
-      <div className="wn-widget">{lat}</div>
+      <div className="wn-widget">{lat}{mediaUrl}
+        <audio src={mediaUrl} controls="true"/>
+      </div>
     )
   }
 
